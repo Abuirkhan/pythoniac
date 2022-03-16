@@ -1,9 +1,10 @@
-name, age = "Jamila", 20
-pi = 3.14
+name = "James"
+full_name = "J James"
+PI = 3.14
 numbers = [1, 2, 3, 4]
 
 print(name)
-print(age)
-print(pi)
+print(full_name)
+print(PI)
 print(numbers)
 
