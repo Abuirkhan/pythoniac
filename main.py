@@ -1,10 +1,9 @@
-name = "James"
-full_name = "J James"
-PI = 3.14
-numbers = [1, 2, 3, 4]
-
-print(type(name))
-print(type(full_name))
-print(type(PI))
-print(type(numbers))
-
+brand = 'Amigoscode'
+print(brand.upper())
+brand1 = 'Amigoscode'
+print(brand1.replace('A','a'))
+print(len(brand))
+print(brand == "sjhg")
+print(brand1 != 'Amigoscode')
+print('code' in brand)
+print('code' not in brand1)
