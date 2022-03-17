@@ -1,5 +1,8 @@
 a = int(input())
-if a % 4 == 0  and (not a % 100 == 0) or a % 400 == 0:
+b = int(input())
+c = int(input())
+(a, b, c > 0)
+if (a + b)>c and (b + c)>a and (c + a)>b:
     print('YES')
 else:
     print('NO')
