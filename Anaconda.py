@@ -1,7 +1,9 @@
 a = int(input())
-if a % 2 == 0 and a > 20:
-    print("Четное число")
-elif  a % 2 == 0 and a < 20:
-    print("Ошибка")
+b = int(input())
+c = int(input())
+if (a+b+c) % 3 == 0:
+    print("Делится на три")
+elif (a+b+c) % 9 == 0:
+    print("Делится на девять")
 else:
-    print("Нечетное чиcло")
+    print("Не делится")
